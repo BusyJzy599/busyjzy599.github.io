@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" role="img" aria-labelledby="title desc">
+  <title id="title">University of Chicago shield</title>
+  <desc id="desc">A maroon and white shield with a stylized phoenix and the University of Chicago motto.</desc>
+  <path fill="#fff" stroke="#800000" stroke-width="4" d="M9 7h82v57c0 27-16 42-41 51C25 106 9 91 9 64V7Z"/>
+  <path fill="#800000" d="M50 28c-7 6-8 13-3 20-6-4-12-3-18 2 8 1 14 5 19 12-1 5-4 9-8 13 5-2 8-5 10-8v17h-8v4h16v-4h-5V67c3 5 7 7 11 8-4-4-7-9-8-14 5-6 11-9 19-10-6-6-12-6-18-3 4-7 3-14-5-20Z"/>
+  <path fill="none" stroke="#800000" stroke-width="2" stroke-linecap="round" d="M27 81c8 5 15 7 23 7s15-2 23-7"/>
+  <text x="50" y="17" fill="#800000" font-family="Georgia,serif" font-size="5.5" letter-spacing=".8" text-anchor="middle">THE UNIVERSITY OF</text>
+  <text x="50" y="98" fill="#800000" font-family="Georgia,serif" font-size="5.8" letter-spacing="1.4" text-anchor="middle">CHICAGO</text>
+  <text x="50" y="105" fill="#800000" font-family="Georgia,serif" font-size="3.3" text-anchor="middle">CRESCAT SCIENTIA · VITA EXCOLATUR</text>
+</svg>
