@@ -107,3 +107,24 @@ a{color:inherit}
 .institution-crest-uchicago{width:38px;height:46px;border-radius:6px;padding:3px 5px}
 .institution-crest-cqu{border-radius:50%;padding:3px}
 @media(max-width:720px){.career-label{gap:7px;min-height:31px}.career-label>span{font-size:8px}.institution-logo{width:31px;height:31px;padding:3px}.institution-crest-uchicago{width:32px;height:38px;border-radius:5px;padding:2px 4px}.institution-crest-cqu{padding:2px}}
+
+/* News: a restrained research log between the premise and the publication list. */
+.news-section{padding-top:112px;padding-bottom:122px}
+.news-heading{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,320px);align-items:end;gap:72px;margin-bottom:50px}
+.news-heading h2{margin:21px 0 0;font-size:clamp(58px,6.5vw,88px);line-height:.9;letter-spacing:-.075em}
+.news-heading h2 em{color:var(--blue);font-style:normal}
+.news-list{border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+.news-item{display:grid;grid-template-columns:160px minmax(0,1fr);gap:30px;padding:31px 0 35px;transition:background 180ms ease,transform 180ms ease}
+.news-item+.news-item{border-top:1px solid var(--line)}
+.news-item:hover{background:linear-gradient(90deg,rgba(120,181,237,.1),transparent 72%);transform:translateX(5px)}
+.news-date{display:grid;align-content:start;gap:6px;padding-top:2px;font-family:var(--mono);text-transform:uppercase}
+.news-date span{color:var(--ink);font-size:28px;line-height:1;letter-spacing:-.06em}
+.news-date time{color:var(--ink-soft);font-size:9px;letter-spacing:.08em}
+.news-item-body{position:relative;max-width:760px;padding-right:42px}
+.news-label{margin-bottom:11px;color:var(--blue);font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase}
+.news-item h3{max-width:700px;margin-bottom:10px;font-size:clamp(24px,2.6vw,34px);line-height:1.03;letter-spacing:-.055em}
+.news-summary{max-width:620px;margin:0;color:var(--ink-soft);font-size:13px;line-height:1.5}
+.news-link{display:inline-flex;margin-top:18px;color:var(--blue);font-family:var(--mono);font-size:9px;letter-spacing:.04em;border-bottom:1px solid rgba(47,118,189,.35);transition:color 180ms ease,border-color 180ms ease}
+.news-link:hover,.news-link:focus-visible{color:var(--ink);border-color:var(--ink)}
+@media(max-width:960px){.news-heading{gap:40px}.news-item{grid-template-columns:120px minmax(0,1fr);gap:22px}}
+@media(max-width:720px){.news-section{padding-top:86px;padding-bottom:92px}.news-heading{display:block;margin-bottom:42px}.news-heading h2{font-size:clamp(55px,15.5vw,84px)}.news-heading .section-note{margin-top:25px;font-size:13px}.news-item{grid-template-columns:78px minmax(0,1fr);gap:15px;padding:24px 0 27px}.news-item:hover{transform:none}.news-date span{font-size:21px}.news-date time{font-size:8px;line-height:1.25}.news-item-body{padding-right:0}.news-label{margin-bottom:9px;font-size:8px}.news-item h3{font-size:23px;line-height:1.06}.news-summary{font-size:12px}.news-link{margin-top:14px;font-size:8px}}
