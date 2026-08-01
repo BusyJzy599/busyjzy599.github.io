@@ -143,3 +143,21 @@ a{color:inherit}
 .mentor-arrow{position:absolute;top:19px;right:22px;color:var(--blue);font-family:var(--mono);font-size:13px}
 @media(max-width:960px){.mentors-heading{gap:40px}.mentor-item{padding-inline:17px}.mentor-item strong{font-size:19px}.mentor-item small{font-size:8px}}
 @media(max-width:720px){.mentors-section{padding-bottom:88px}.mentors-heading{display:block;margin-bottom:25px}.mentors-heading h2{font-size:36px}.mentors-heading .section-note{margin-top:17px;font-size:12px}.mentor-list{grid-template-columns:1fr}.mentor-item{min-height:0;padding:17px 18px 19px}.mentor-item+.mentor-item{border-top:1px solid var(--line);border-left:0}.mentor-item strong{font-size:21px}.mentor-item small{max-width:260px;font-size:8px}.mentor-arrow{top:17px;right:18px}}
+
+/* Final mentors pass: keep the people section light, compact, and easy to scan. */
+.news-section{padding-bottom:48px}
+.work-section{padding-top:96px}
+.mentors-section{padding-top:0;padding-bottom:42px}
+.now-section{padding-top:94px}
+.mentors-heading{align-items:baseline;gap:36px;margin-bottom:18px}
+.mentors-heading h2{margin:10px 0 0;font-size:clamp(29px,3.1vw,38px);line-height:1.04;letter-spacing:-.065em}
+.mentors-heading .section-note{max-width:250px;font-size:10px;line-height:1.4}
+.mentor-list{border-top-color:var(--line)}
+.mentor-item{min-height:104px;gap:5px;padding:15px 20px 17px}
+.mentor-item:hover,.mentor-item:focus-visible{transform:translateY(-2px)}
+.mentor-number{font-size:8px}
+.mentor-item strong{padding-right:18px;font-size:19px;line-height:1.1}
+.mentor-item small{max-width:220px;font-size:8px;line-height:1.4}
+.mentor-arrow{top:15px;right:19px;font-size:11px}
+@media(max-width:960px){.mentors-heading{gap:28px}.mentor-item{padding-inline:16px}.mentor-item strong{font-size:18px}}
+@media(max-width:720px){.news-section{padding-bottom:42px}.work-section{padding-top:70px}.mentors-section{padding-bottom:40px}.now-section{padding-top:72px}.mentors-heading{margin-bottom:17px}.mentors-heading h2{font-size:30px;line-height:1.08}.mentors-heading .section-note{margin-top:12px;font-size:10px}.mentor-item{padding:14px 16px 15px}.mentor-item strong{font-size:19px}.mentor-item small{max-width:280px;font-size:8px}.mentor-arrow{top:14px;right:16px}}
