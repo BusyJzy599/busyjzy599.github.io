@@ -126,6 +126,7 @@ a{color:inherit}
 .news-label a{border-bottom:1px solid rgba(47,118,189,.28);transition:border-color 180ms ease,color 180ms ease}
 .news-label a:hover,.news-label a:focus-visible{color:var(--ink);border-color:var(--ink)}
 .news-item h3{max-width:800px;margin-bottom:5px;color:var(--ink);font-size:17px;line-height:1.32;letter-spacing:-.02em}
+.news-celebration{display:inline-block;margin-right:7px;font-family:system-ui,"Apple Color Emoji","Segoe UI Emoji",sans-serif;font-size:.82em;letter-spacing:0;transform:translateY(-.02em)}
 .news-item h3 em{font-style:normal;color:var(--blue)}
 .news-summary{margin:0;color:var(--ink-soft);font-size:12px;line-height:1.45}
 .news-summary strong{color:var(--ink);font-weight:600}
