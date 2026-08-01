@@ -104,6 +104,6 @@ a{color:inherit}
 .institution-logo{display:grid;place-items:center;width:38px;height:38px;padding:4px;border:1px solid rgba(245,248,252,.36);background:#fff;transition:transform 180ms ease,border-color 180ms ease}
 .institution-logo:hover,.institution-logo:focus-visible{border-color:var(--acid);transform:translateY(-2px)}
 .institution-logo img{display:block;width:100%;height:100%;object-fit:contain}
-.institution-crest-uchicago{width:31px;border-radius:5px;padding:3px 4px}
+.institution-crest-uchicago{width:38px;height:46px;border-radius:6px;padding:3px 5px}
 .institution-crest-cqu{border-radius:50%;padding:3px}
-@media(max-width:720px){.career-label{gap:7px;min-height:31px}.career-label>span{font-size:8px}.institution-logo{width:31px;height:31px;padding:3px}.institution-crest-uchicago{width:26px;border-radius:4px;padding:2px 3px}.institution-crest-cqu{padding:2px}}
+@media(max-width:720px){.career-label{gap:7px;min-height:31px}.career-label>span{font-size:8px}.institution-logo{width:31px;height:31px;padding:3px}.institution-crest-uchicago{width:32px;height:38px;border-radius:5px;padding:2px 4px}.institution-crest-cqu{padding:2px}}
